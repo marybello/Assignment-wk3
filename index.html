@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freeway Ltd</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="parentdiv">
+
+       
+<h2 style="margin-top: 15px; font-family: Arial, Helvetica, sans-serif; padding: 20px;">Hello! please fill in your information correctly to log in</h2>
+
+
+
+        <div id="divform">
+
+        <form  name="form" method="POST" action="#" onsubmit="return validate();" >
+
+            <label for="">Positon </label> 
+    <select id="staff" name="staff" >
+        <option value="Default">Default</option>
+        <option value="Manager" id="Manager">Manager</option>
+        <option value="Junior Staff" id="Manager">Junior Staff</option>
+
+        
+    </select> <br>
+    <label for="">Select Branch</label> 
+ <select id="city" name="city">
+     <option value="default">Default</option>
+     <option value="Dubai">Dubai</option>
+     <option value="Morocco">Morocco</option>
+     <option value="Niger">Niger</option>
+     <option value="Ghana">Ghana</option>
+     <option value="Nigeria">Nigeria</option>
+
+
+
+ </select>
+
+
+<br>
+
+
+<label for="">Full Name</label>
+<input type="text" id="FullName" name="FullName">
+   <label for=""> EmployeeID: </label>
+<input type="text" name="EmployeeID" id="EmployeeID"> 
+<label for=""> Password: </label>
+<input type= "password" id="password">
+
+<input style="width: 100px; " type= "submit" value="Sign In" onclick="validate();">
+
+
+</form>
+
+</div>
+
+</div>
+    
+</body>
+<script src="index.js"></script>
+</html>

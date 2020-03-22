@@ -1,0 +1,6 @@
+Freeway employee platform.
+This form is designed using html,javascript and css. the first field is the postion field which would enable the user to select whether he or she is a manager or junior staff.
+this way CEO would be able to reserve som einformations strictly for the managers and the next field allows the user to select the branch he or she is working with.
+then the fullname, employeeId and password allows the user to input his or her details respectively. javascript was used to validate all these fields to make sure they are not empty and when filled correctly, would direct the user to a page he or she can work remotely.
+
+
